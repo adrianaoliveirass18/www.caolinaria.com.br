@@ -1,0 +1,507 @@
+/* Paleta: Marrom escuro #55423c | Bege #fdf9b4 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  body {
+    font-family: "Arial", sans-serif;
+    background-color: #fdf9b4;
+    color: #55423c;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #55423c;
+    color: #fdf9b4;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  header img {
+    max-width: 140px;
+    height: auto;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    border: 4px solid #fdf9b4;
+  }
+
+  h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 56px;
+    color: #ff7272;
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 2px;
+  }
+
+  .subtitle {
+    font-style: italic;
+    font-size: 18px;
+  }
+
+  nav {
+    background-color: #fdf9b4;
+    border-bottom: 2px solid #55423c;
+    padding: 15px 0;
+    text-align: center;
+  }
+
+  nav a {
+    color: #55423c;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+
+  nav a:hover {
+    color: #a7796e;
+  }
+
+  main {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  main h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  main p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+  }
+
+  footer {
+    background-color: #55423c;
+    color: #fdf9b4;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #fdf9b4;
+    color: #c18742;
+  }
+
+  header {
+    background-color: #c18742;
+    color: #fdf9b4;
+    display: block;
+    front-size: 10px;
+    margin-top: 10px;
+  }
+
+  header::after {
+    content: "🐾🦴🐾";
+    display: block;
+    font-size: 24px;
+    margin-top: 10px;
+  }
+
+  h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+
+  main {
+  }
+  padding: 30px;
+}
+
+.categoria {
+  margin-bottom: 40px;
+}
+
+.categoria h2 {
+  font-size: 30px;
+  color: #ff7272;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+ul li::before {
+  content: "🦴 ";
+  margin-right: 8px;
+}
+
+footer {
+  background-color: #c18742;
+  color: #fdf9b4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
+.cartao-contato {
+  background-color: #fff;
+  border: 2px dashed #ff7272;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 20px auto;
+  font-size: 18px;
+  color: #ff7272;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.cartao-contato a {
+  color: #ff7272;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cartao-contato a:hover {
+  text-decoration: underline;
+}
+
+/* Paleta: Marrom escuro #55423c | Bege #fdf9b4 | Rosa #ff7272 | Dourado #c18742 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #fdf9b4;
+  color: #55423c;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #55423c;
+  color: #fdf9b4;
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+  max-width: 140px;
+  height: auto;
+  border-radius: 100%;
+  margin-bottom: 15px;
+  border: 4px solid #fdf9b4;
+}
+
+h1 {
+  font-family: "Poetsen One", cursive, sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 18px;
+}
+
+/* Navegação */
+nav {
+  background-color: #fdf9b4;
+  border-bottom: 2px solid #55423c;
+  padding: 15px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #55423c;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #a7796e;
+}
+
+/* Conteúdo Principal */
+main {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 28px;
+  color: #c18742;
+  margin-bottom: 20px;
+}
+
+main p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 18px;
+}
+
+/* Seções de Categorias */
+.categoria {
+  margin-bottom: 40px;
+}
+
+.categoria h2 {
+  font-size: 40px;
+  color: #ff7272;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 20px;
+  text-align: center;
+  display: inline-block;
+}
+
+ul li {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #55423c;
+}
+
+ul li::before {
+  content: "🦴 ";
+  margin-right: 8px;
+}
+
+/* Cartão de Contato */
+.cartao-contato {
+  background-color: #fff;
+  border: 2px dashed #ff7272;
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-size: 18px;
+  color: #ff7272;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.cartao-contato a {
+  color: #ff7272;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cartao-contato a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  background-color: #55423c;
+  color: #fdf9b4;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 14px;
+}
+a.instagram-link {
+  color: #ff7272;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a.instagram-link:hover {
+  text-decoration: underline;
+}
+#boxmensal {
+  background-color: #fff8f0;
+  padding: 40px 20px;
+  text-align: center;
+  border-top: 2px solid #ff7272;
+}
+
+#boxmensal h2 {
+  font-size: 30px;
+  color: #ff7272;
+  margin-bottom: 15px;
+}
+
+#boxmensal p {
+  font-style: italic;
+  font-size: 18px;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.plano-assinatura {
+  background-color: #ffffff;
+  border: 2px dashed #ff7272;
+  border-radius: 16px;
+  padding: 30px;
+  max-width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.plano-assinatura h3 {
+  font-size: 24px;
+  color: #ff7272;
+  margin-bottom: 15px;
+}
+
+.plano-assinatura ul {
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.plano-assinatura ul li {
+  margin-bottom: 8px;
+}
+
+.botao-assinar {
+  display: inline-block;
+  background-color: #ff7272;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.botao-assinar:hover {
+  background-color: #e85e5e;
+}
+#produtos {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+  text-align: center;
+  border-top: 2px solid #ff7272;
+}
+
+#produtos h2 {
+  font-size: 30px;
+  color: #c18742;
+  margin-bottom: 30px;
+}
+
+.lista-produtos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.produto {
+  background-color: #ffffff;
+  border: 2px dashed #ff7272;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.produto h3 {
+  font-size: 20px;
+  color: #55423c;
+  margin-bottom: 8px;
+}
+
+.produto p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.produto .preco {
+  font-weight: bold;
+  color: #ff7272;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.ingredientes {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  color: #a7796e;
+  margin-bottom: 10px;
+}
+#galeria {
+  padding: 40px 20px;
+  background-color: #fff8f0;
+  text-align: center;
+  border-top: 2px solid #ff7272;
+}
+
+#galeria h2 {
+  font-size: 30px;
+  color: #c18742;
+  margin-bottom: 10px;
+}
+
+#galeria p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #55423c;
+}
+
+.grid-galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid-galeria img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 3px solid #ff7272;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.grid-galeria img:hover {
+  transform: scale(1.05);
+}
+/* Barra de rolagem estilizada no popup */
+#itensCarrinho::-webkit-scrollbar {
+  width: 6px;
+}
+
+#itensCarrinho::-webkit-scrollbar-thumb {
+  background-color: #f472b6;
+  border-radius: 5px;
+}
+
+/* Animação do modal (opcional) */
+.popup {
+  display: flex;
+  animation: fadeIn 0.3s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
